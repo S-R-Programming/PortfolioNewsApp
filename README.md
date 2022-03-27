@@ -26,7 +26,7 @@ Android Studio (Flutter)
      width="400px"><br><br>
     投稿者(会社)の名前、メールアドレス、パスワードを入力してアカウントを作ります。<br><br>
  <img src="https://user-images.githubusercontent.com/89324742/160272196-2089ed59-e38f-4651-a175-26ea1f31536b.png"
-      width="400px">
+      width="400px"><br><br>
 するとニュース追加・編集画面に移ります。(ログイン時もこの画面に移ります)<br><br>
 <img src = "https://user-images.githubusercontent.com/89324742/160272326-afe88139-762e-41ea-b585-54a2f62c4a93.png"
      width="400px"><br><br>
@@ -40,15 +40,9 @@ Android Studio (Flutter)
                <img src = "https://user-images.githubusercontent.com/89324742/160272398-2bcfa8cc-0ccb-4d0b-8048-ff3f23634b94.png"
                     width="400px"><br><br>
 ## 工夫点
-・現在、自分が持っているAndroidアプリ開発の知識を使いました。<br>・Firebaseを用いたアカウント作成、ログイン機能、データベース管理<br>・Twitterでツイート出来るようにしました
-<br>・デフォルトのFirebaseのログイン機能がなぜか上手くいかなかったので自分で実装しました。
+・現在、自分が持っているFlutterアプリ開発の知識を使いました。<br>・Firebaseを用いたアカウント作成、ログイン機能、データベース管理<br>
 
-## 課題点
-・本当は月ごとに一覧を表示させたかったのですが、出来ませんでした。<br>・デザインがシンプルなものしか出来ません。
 
 ## 自己紹介
-現在、情報系の学科に通っている大学生です。(2021年11月現在)<br>普段からAndroidアプリの勉強をしています。また、機械学習の勉強もしています。
+現在、情報系の学科に通っている大学生です。(2022年4月現在)<br>普段からスマホアプリの勉強をしています。。
 <br>Qiitaで記事を書いているので、お時間あればこちらもご覧ください。https://qiita.com/S-R-Programming
-
-## 余談
-次はAWSやAzureにも触ってみたいです。
