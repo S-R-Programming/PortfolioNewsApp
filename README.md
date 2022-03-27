@@ -18,7 +18,7 @@ Android Studio (Flutter)
          <img src="https://user-images.githubusercontent.com/89324742/160271461-ff843883-6fec-466a-9165-3c41a7bfc99b.png"
         width="400px"><br><br>
 ## 投稿者の使い方
-「何で？」のところに「何を我慢して節約したか」、「何円節約」のところに「具体的な金額」を入力して「確定」ボタンを押します。すると、<br><br>
+左上をタップし、、<br><br>
 <img src = "https://user-images.githubusercontent.com/89324742/140570242-162dc5d9-4cc8-4ec1-a6dc-10acd3934801.png"
      width="400px"><br><br>
 このようにリストで記録されます。このリストを押すと、Tweetの画面へ移り、我慢した内容をTweet出来ます。<br><br>
