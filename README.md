@@ -5,17 +5,19 @@
 ## 開発環境 
 Android Studio (Flutter)
 
-## 使い方
-トップ画面は以下です。<br><br>
-<img src="https://user-images.githubusercontent.com/89324742/140568548-720d3866-3f23-46f7-b4be-925e71a10605.png"
+## 閲覧者の使い方
+トップ画面は以下です。投稿されたニュースの一覧が表示されます。<br><br>
+<img src="https://user-images.githubusercontent.com/89324742/160271215-015c83fc-1d65-4f2d-9736-74bbcb1e9f14.png"
      width="400px"><br><br>
-初めて利用する場合は「新規登録」のボタンを押します。すると以下の画面へ遷移します。<br><br>
-<img src="https://user-images.githubusercontent.com/89324742/140569187-ff502067-f012-41ed-bf87-2fe67d579806.png"
+記事をタップすると、ニュースの詳細が表示されます。<br><br>
+<img src="https://user-images.githubusercontent.com/89324742/160271292-a6a0d237-d7a1-4e2c-ae6e-d8a614d1f4ba.png"
      width="400px"><br><br>
-   メールアドレス(Gmailのみ)とパスワード(6文字以上)を入力して、「新規登録」ボタンを押します。これでアカウントが作成されます。<br>
-   次に以下のような画面へ遷移します。<br><br>
-   <img src="https://user-images.githubusercontent.com/89324742/140569825-1061cfa9-c79f-45a6-996e-025a302458b0.png"
+ トップ画面に戻り、下の「新聞別」を押すと投稿者ごとの記事を見ることが出来ます。<br><br>
+   <img src="https://user-images.githubusercontent.com/89324742/160271458-5a0571ee-3007-4c33-84fc-123fd64e9239.png"
+        width="400px">
+         <img src="https://user-images.githubusercontent.com/89324742/160271461-ff843883-6fec-466a-9165-3c41a7bfc99b.png"
         width="400px"><br><br>
+## 投稿者の使い方
 「何で？」のところに「何を我慢して節約したか」、「何円節約」のところに「具体的な金額」を入力して「確定」ボタンを押します。すると、<br><br>
 <img src = "https://user-images.githubusercontent.com/89324742/140570242-162dc5d9-4cc8-4ec1-a6dc-10acd3934801.png"
      width="400px"><br><br>
