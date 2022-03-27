@@ -22,7 +22,7 @@ class NewsCard extends StatelessWidget {
         );
       },
       child: Container(
-        height: 160,
+        height: 150,
         color: Colors.white,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

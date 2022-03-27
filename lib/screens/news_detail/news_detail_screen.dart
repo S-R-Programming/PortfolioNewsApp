@@ -32,14 +32,14 @@ class NewsDetailScreen extends StatelessWidget {
                       children: [
                         Text(
                           newsModel.name,
-                          style: TextStyle(color: Colors.grey, fontSize: 10),
+                          style: TextStyle(color: Colors.grey, fontSize: 15),
                         ),
                         SizedBox(
                           width: 10,
                         ),
                         Text(
                           newsModel.date,
-                          style: TextStyle(color: Colors.grey, fontSize: 10),
+                          style: TextStyle(color: Colors.grey, fontSize: 15),
                         ),
                       ],
                     ),

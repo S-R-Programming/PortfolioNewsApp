@@ -3,14 +3,12 @@ import 'package:intl/intl.dart';
 import 'package:portfolio_news_app/models/add_news_model.dart';
 import 'package:provider/provider.dart';
 
-
-class AddNewsScreen extends StatelessWidget{
-  //ブログの時にはラジオボタンを押さないので、下の変数はブログのものにする
+class AddNewsScreen extends StatelessWidget {
   String name = "";
   DateTime now = DateTime.now();
   DateFormat outputFormat = DateFormat('yyyy-MM-dd');
- AddNewsScreen(this.name);
 
+  AddNewsScreen(this.name);
 
   @override
   Widget build(BuildContext context) {
@@ -59,9 +57,8 @@ class AddNewsScreen extends StatelessWidget{
                         ),
                         GestureDetector(
                           child: SizedBox(
-                            //4:3の比率
-                            width: 80,
-                            height: 60,
+                            width: 100,
+                            height: 56.25,
                             child: model.newsImageFile != null
                                 ? Image.file(model.newsImageFile!)
                                 : Container(
@@ -131,6 +128,9 @@ class AddNewsScreen extends StatelessWidget{
                             ),
                           ),
                         ),
+                        SizedBox(
+                          height: 20,
+                        )
                       ],
                     ),
                   ),

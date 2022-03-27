@@ -23,13 +23,13 @@ class SelectNewsCard extends StatelessWidget {
         );
       },
       child: Container(
-        height: 160,
+        height: 150,
         color: Colors.white,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Padding(
-              padding: const EdgeInsets.all(20),
+              padding: const EdgeInsets.all(15),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -37,12 +37,12 @@ class SelectNewsCard extends StatelessWidget {
                   Container(
                     child: Text(
                       newsModel.title,
-                      style: TextStyle(fontWeight: FontWeight.w800, fontSize: 20),
+                      style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
                     ),width: size.width*0.6,),
                   Container(
-                    //4:3の比率
-                      width: 80,
-                      height: 60,
+                    //16:9の比率
+                      width: 100,
+                      height: 56.25,
                       child: Image(
                           fit: BoxFit.fill,
                           image: NetworkImage(newsModel.newsImage))),
@@ -50,7 +50,7 @@ class SelectNewsCard extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(bottom: 10, left: 20),
+              padding: const EdgeInsets.only(left: 20),
               child: Row(
                 children: [
                   Text(
