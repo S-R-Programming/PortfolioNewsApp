@@ -30,9 +30,6 @@ class AddNewsScreen extends StatelessWidget {
                   SizedBox(
                     height: 30,
                   ),
-                  SizedBox(
-                    height: 30,
-                  ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
@@ -46,7 +43,7 @@ class AddNewsScreen extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: 30,
+                          height: 15,
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -57,8 +54,8 @@ class AddNewsScreen extends StatelessWidget {
                         ),
                         GestureDetector(
                           child: SizedBox(
-                            width: 100,
-                            height: 56.25,
+                            width: 200,
+                            height: 112.5,
                             child: model.newsImageFile != null
                                 ? Image.file(model.newsImageFile!)
                                 : Container(
@@ -69,6 +66,9 @@ class AddNewsScreen extends StatelessWidget {
                             print("touched！");
                             await model.pickNewsImage();
                           },
+                        ),
+                        SizedBox(
+                          height: 30,
                         ),
                         TextField(
                           keyboardType: TextInputType.multiline,
@@ -82,7 +82,7 @@ class AddNewsScreen extends StatelessWidget {
                           },
                         ),
                         SizedBox(
-                          height: 8,
+                          height: 10,
                         ),
                         TextField(
                           keyboardType: TextInputType.multiline,

@@ -18,7 +18,7 @@ class _TabScreensState extends State<TabScreens> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   List<Widget> _widgetOptions = <Widget>[NewsScreen("news"), TitleScreen()];
 
-  static const List<String> bar_name = <String>["ニュース", "ゲーム別"];
+  static const List<String> bar_name = <String>["ニュース", "新聞別"];
 
   void _onItemTapped(int index) {
     setState(() {

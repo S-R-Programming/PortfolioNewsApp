@@ -1,6 +1,6 @@
 class NewsModel {
   final String title,
-  name,
+      name,
       newsImage,
       detail,
       id,
@@ -15,57 +15,3 @@ class NewsModel {
     required this.detail,
   });
 }
-
-/*List<NewsModel> newsList = [
-  NewsModel(
-      id: "123",
-      title: "The Burning Snow The Burning Snow The Burning Snow",
-      detail: "Swollen glands,Dry Cough,Restlessness",
-      date: "2020年",
-      gameName: "qw",
-      newsImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba",
-      logoImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba"),
-  NewsModel(
-      id: "123",
-      title: "The Burning Snow",
-      detail: "Swollen glands,Dry Cough,Restlessness",
-      date: "2020年",
-      gameName: "qw",
-      newsImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba",
-      logoImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba"),
-  NewsModel(
-      id: "123",
-      title: "The Burning Snow",
-      detail: "Swollen glands,Dry Cough,Restlessness",
-      date: "2020年",
-      gameName: "qw",
-      newsImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba",
-      logoImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba"),
-  NewsModel(
-      id: "123",
-      title: "The Burning Snow The Burning Snow The Burning Snow",
-      detail: "Swollen glands,Dry Cough,Restlessness",
-      date: "2020年",
-      gameName: "qw",
-      newsImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba",
-      logoImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba"),
-  NewsModel(
-      id: "123",
-      title: "The Burning Snow The Burning Snow The Burning Snow",
-      detail: "Swollen glands,Dry Cough,Restlessness",
-      date: "2020年",
-      gameName: "qw",
-      newsImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba",
-      logoImage:
-          "https://firebasestorage.googleapis.com/v0/b/naturalherbapp.appspot.com/o/a_herb%2F2nNIN4CxVz1achHl7JGP?alt=media&token=78be0737-e148-4e28-b4a5-6f3103fc73ba"),
-];
-*/
