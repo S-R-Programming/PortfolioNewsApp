@@ -11,9 +11,9 @@ class CustomDrawer extends StatelessWidget {
           Container(
               alignment: Alignment.center,
               height: 50,
-              child: DrawerHeader(child: Text("管理者画面"))),
+              child: DrawerHeader(child: Text("投稿者画面"))),
           ListTile(
-            title: Text("管理者認証"),
+            title: Text("投稿者認証"),
             onTap: () {
               Navigator.push(
                 context,
