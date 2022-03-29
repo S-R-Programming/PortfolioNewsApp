@@ -3,7 +3,9 @@
 
 
 ## 開発環境
-Android Studio (Flutter)
+Android Studio Bumblebee | 2021.1.1 Patch 2
+macOS 12.2.1
+Flutter 2.10.4
 
 ## 閲覧者の使い方
 トップ画面は以下です。投稿されたニュースの一覧が表示されます。<br><br>
